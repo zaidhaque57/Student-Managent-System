@@ -1,6 +1,6 @@
 // src/api/marksService.js
 
-const API_BASE_URL = '/api/marks';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api/marks`;
 
 export const marksService = {
   // GET: /api/marks

@@ -1,6 +1,6 @@
 // src/api/courseService.js
 
-const API_BASE_URL = '/api/courses';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api/courses`;
 
 export const courseService = {
   // GET: /api/courses
