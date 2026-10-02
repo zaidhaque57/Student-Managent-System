@@ -91,3 +91,5 @@ target/
 student/.mvn/timing.properties
 student/.mvn/wrapper/maven-wrapper.jar
 *.log
+
+*.src/resources/application.properties

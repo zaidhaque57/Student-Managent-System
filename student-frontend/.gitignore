@@ -22,3 +22,112 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# ==========================================
+# 1. Confidential & Sensitive Data
+# ==========================================
+# Uncomment the line below if you chose Option B to completely hide local properties
+# **/src/main/resources/application.properties
+*.env
+*.env.local
+*.env.*.local
+
+# ==========================================
+# 2. Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# 3. Node & Frontend (student-frontend)
+# ==========================================
+student-frontend/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+student-frontend/dist/
+student-frontend/dist-ssr/
+student-frontend/*.local
+
+# ==========================================
+# 4. Spring Boot & Java (student)
+# ==========================================
+student/target/
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven Wrapper & runtime logs
+student/.mvn/timing.properties
+student/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# ==========================================
+# 1. CONFIDENTIAL / SENSITIVE FILES
+# ==========================================
+# Real database credentials and local environments
+student/src/main/resources/application.properties
+*.env
+*.env.local
+*.env.*.local
+
+# ==========================================
+# 2. LOCAL IDE & OS SETTINGS (DO NOT UPLOAD)
+# ==========================================
+.vscode/
+*/.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# ==========================================
+# 3. BACKEND (Spring Boot / Maven Build Outputs)
+# ==========================================
+student/target/
+target/
+*.class
+*.jar
+*.war
+*.log
+student/.mvn/timing.properties
+
+# ==========================================
+# 4. FRONTEND (Vite / React / Node Outputs)
+# ==========================================
+student-frontend/node_modules/
+node_modules/
+student-frontend/dist/
+student-frontend/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
